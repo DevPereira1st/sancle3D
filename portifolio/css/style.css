@@ -1,9 +1,9 @@
 :root {
     --pri-color: #ff2929;
-    --sec-color: #fadd5a;
+    --quar-color: #ffdb3b;
     --ter-color: #49beb6;
-    --quar-color: #075f63;
-    --quin-color: #11485f;
+    --quin-color: #075f63;
+    --sec-color: #11485f;
     --sex-color: #060608;
 }
 
@@ -36,7 +36,7 @@ header {
     font-size: 13px;
 
     li, a{
-        color: aliceblue;
+        color: rgb(233, 237, 241);
         text-decoration: none;
         list-style: none;
         padding: 0px 7px;
@@ -62,7 +62,7 @@ header {
     }
 
     strong {
-        color: var(--pri-color);
+        color: white;
         font-size: 20px;
     }
 }
@@ -74,37 +74,130 @@ border: none;
 }
 
 .container-banner {
-    background: #000000;
-    background: linear-gradient(90deg,rgba(0, 0, 0, 1) 30%, rgba(36, 36, 36, 1) 60%);
-    height: 150px;
+    background-image: url(/assets/img/banner.png);
+    background-size: cover;
+    height: 200px;
     display: flex;
-    align-items: center;
 }
 
 .conteudo {
+    
     margin: auto;
     max-width: 1440px;
-    width: 1000px;
     display: flex;
-    justify-content: space-between;
-}
+    text-align: center;
 
-.banner-top {
-    color: rgb(223, 223, 223);
-    font-family: "Roboto", sans-serif;
-    font-style: italic;
+    .banner-top {
+        color: rgb(250, 249, 249);
+        text-shadow: 0 1px 5px rgba(0, 0, 0, 0.075);
+        font-family: "Roboto", sans-serif;
     
     .titulo {
-    font-size: 50px;
-    font-weight: bold;
+        font-size: 70px;
+        font-weight: bold;
 
+    }::selection {
+        background-color: #11485f;
+        color: var(--quar-color);
     }
 
     .sub-titulo {
-    font-size: 25px;
+        font-size: 25px;
+        font-weight: 200;
+
+    }::selection {
+        background-color: #11485f;
+        color: var(--quar-color);
     }
 
     strong {
         color: var(--sec-color);
+        font-weight: 800;
+        
     }
+}
+}
+
+
+.seloqualidade {
+    margin: auto;
+    margin-top: 10px;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+
+
+    button {
+        background-color: #06060800;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 20px;
+        border: 1px solid white;
+        cursor: grab;
+
+        i {
+            color: white;
+            transition: 1s;
+            cursor: pointer;
+        }:hover {
+            color: var(--sec-color);
+            border: none;
+        }
+    }:hover {
+    border: 1px solid var(--sec-color);
+    color: var(--sec-color);
+}
+}
+
+.apresentacao {
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 50px;
+    padding-bottom: 30px;
+}
+
+.card-sobre {
+    margin: auto;
+    padding: 20px 50px;
+    max-width: 1440px;
+    border: 1px solid #060608;
+    border-top: none;
+
+    .sobre {
+        display: flex;
+        justify-content: space-between;
+
+        .texto {
+            font-family: Arial, Helvetica, sans-serif;
+            letter-spacing: 0.5px;
+            margin: auto 0;
+            text-align: justify;
+            font-size: 20px;
+            width: 480px;
+
+        }
+    }
+}
+
+        .imagem {
+           background-image: url(/assets/img/revit.png);
+           width: 600px;
+           height: 280px;
+           background-repeat: none;
+           background-size: cover;
+        }
+
+
+.arrow {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+   i {
+     background-color: var(--sec-color);
+     align-items: center;
+     padding: 10px;
+     border-radius: 50%;
+   }
 }
