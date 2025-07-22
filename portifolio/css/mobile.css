@@ -32,6 +32,7 @@
 
     .logo {
         display: flex;
+        margin: auto;
         font-family: "Wix Madefor Display", sans-serif;
         font-weight: 600;
         justify-content: center;
@@ -116,6 +117,8 @@
 
         border-bottom: 1px solid var(--sec-color);
 
+        border-image: none;
+
         padding: 35px 0 0 0;
         border-radius: 12px;
 
@@ -156,12 +159,22 @@
         justify-content: space-between;
         align-items: center;
 
+        flex-direction: row;
+
         margin-bottom: 100px;
 
     }
 
+.direita { 
+    display: flex;
+    /* alterado para esquerda, voltar ao normal, mobile */
+    justify-content: left;
+}
+
+
 
     .descicon {
+        border-image: none;
         border-top: 1px solid var(--quin-color);
         border-right: 1px solid var(--sec-color);
         border-bottom: 1px solid var(--sec-color);
@@ -175,7 +188,7 @@
 
         padding: 20px;
 
-        text-align: justify;
+        text-align: center;
 
     }
 
@@ -201,7 +214,7 @@
     .clientes {
             
     margin: auto;
-    max-width: 1440px;
+    
 
     padding: 50px 80px;
     display: block;
@@ -210,7 +223,7 @@
 
     p {
         margin: auto;
-        max-width: 1440px;
+        
         background-color: var(--sex-color);
         color: white;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -220,7 +233,7 @@
     }
 
     .proje {
-        
+        display: block;
         justify-content: space-between;
 
         background-color: rgb(245, 245, 245);
@@ -231,13 +244,15 @@
 
         box-shadow: 12px 12px 0 rgb(177, 172, 172);
 
+        border-image: none;
+
         .img-client {
-            display: flex;
-            margin: auto;
-            justify-content: center;
+        
             padding: 15px;
 
             img {
+                display: block;
+                margin: auto;
                 border-radius: 12px;
                 box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.151);
             }
@@ -245,16 +260,21 @@
 
         .text-client {
 
+            padding: 20px;
+
             .titulo-client{
                 font-family: "Wix Madefor Display", sans-serif;
                 color: #060608;
                 font-weight: 600;
                 background-color: transparent;
 
+                text-align: center;
+
                 padding: 17px 0;
             }
 
             .proje-client {
+                display: block;
                 margin: auto;
                     p {
                         font-family: "Wix Madefor Display", sans-serif;
@@ -262,16 +282,17 @@
                         background-color: transparent;
 
                         padding: 15px 0;
-                        text-align: justify;
+                        text-align: center;
                     }
         }
 
-                .client {
-                    font-family: "Wix Madefor Display", sans-serif;
-                    color: #060608;
-                    background-color: transparent;
-                    font-weight: 600;
-    }
+            .client {
+                font-family: "Wix Madefor Display", sans-serif;
+                color: #060608;
+                background-color: transparent;
+                font-weight: 600;
+                text-align: center;
+        }
     }
     }
 
@@ -522,12 +543,6 @@
             }
         }
 
-        .logo {
-            p, strong {
-                font-size: 40px;
-            }
-        }
-
     }
 
     .copy {
@@ -607,4 +622,20 @@
     }
 }
 
+}
+
+@media screen and (max-width: 376px) {
+            .img-client {
+        
+            padding: 15px;
+
+            img {
+                display: block;
+                margin: auto;
+                width: 100px;
+                height: 100px;
+                border-radius: 12px;
+                box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.151);
+            }
+        }
 }
