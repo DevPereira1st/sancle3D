@@ -50,7 +50,7 @@ header {
 .header-nav {
     margin: auto;
     padding: 10px 80px;
-    max-width: 1440px;
+    max-width: 2560px;
     display: flex;
     justify-content: space-between;
     
@@ -116,7 +116,7 @@ border: none;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 1440px;
+    max-width: 2560px;
     height: 630px;
 
     .info {
@@ -147,7 +147,7 @@ border: none;
 
     justify-content: center;
     padding: 50px 0;
-    max-width: 1440px;
+    max-width: 2560px;
     cursor: var(--cursor-select);
 
 
@@ -163,7 +163,7 @@ border: none;
 .boddy-project {
     
     margin: auto;
-    max-width: 1440px;
+    max-width: 2560px;
 
 
     justify-content: space-around;
@@ -268,7 +268,7 @@ border: none;
 .clientes {
             
     margin: auto;
-    max-width: 1440px;
+    max-width: 2560px;
 
     padding: 50px 80px;
     display: block;
@@ -277,7 +277,7 @@ border: none;
 
     p {
         margin: auto;
-        max-width: 1440px;
+        max-width: 2560px;
         background-color: var(--sex-color);
         color: white;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -424,7 +424,7 @@ footer {
 
 .conteudo {
 
-    max-width: 1440px;
+    max-width: 2560px;
     margin: auto;
 
     padding: 50px 80px;
@@ -650,7 +650,7 @@ footer {
     display: flex;
     margin: auto;
 
-    max-width: 1440px;
+    max-width: 2560px;
     padding: 0  80px;
     
     justify-content: space-between;
