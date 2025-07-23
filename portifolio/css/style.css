@@ -117,7 +117,7 @@ border: none;
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 2560px;
-    height: 630px;
+    height: auto;
 
     .info {
         margin: auto;
