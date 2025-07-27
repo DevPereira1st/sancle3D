@@ -7,4 +7,4 @@ Nesse exercício, eu criei um portifólio, para um arquiteto, simples utilizando
 **VERSÃO ATUAL:** 
 
 ***DESKTOP***<br>
-![Assista o Video]()]()
+<img src="https://imgur.com/a/s6uyipD" alt="Texto Alternativo">
