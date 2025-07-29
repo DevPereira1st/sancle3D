@@ -190,7 +190,7 @@ border: none;
 .linha {
     border-image: linear-gradient(45deg, var(--quin-color), var(--ter-color)) 1;
     border-bottom: 1px solid wheat;
-    width: 62%;
+    width: 100%;
    
 
     
